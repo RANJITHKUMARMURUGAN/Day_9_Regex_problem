@@ -16,15 +16,15 @@ public class User_register {
    }
     
    public static void main(String a[]){
-       System.out.println("Is 'java2novice' a valid user name? "
-                       +validateUserName("java2novice"));
-       System.out.println("Is 'cric' a valid user name? "
-                       +validateUserName("cric"));
-       System.out.println("Is 'JAVA2NOVICE' a valid user name? "
-                       +validateUserName("JAVA2NOVICE"));
-       System.out.println("Is 'java.2.novice' a valid user name? "
-                       +validateUserName("java.2.novice"));
-       System.out.println("Is 'java_2-novice' a valid user name? "
-                       +validateUserName("java_2-novice"));
+       System.out.println("Is 'com2puter' a valid user name? "
+                       +validateUserName("com2puter"));
+       System.out.println("Is 'helo' a valid user name? "
+                       +validateUserName("helo"));
+       System.out.println("Is 'COMPUTER24SYSTEM' a valid user name? "
+                       +validateUserName("COMPUTER24SYSTEM"));
+       System.out.println("Is 'computer.2.novice' a valid user name? "
+                       +validateUserName("computer.2.novice"));
+       System.out.println("Is 'computer_2-novice' a valid user name? "
+                       +validateUserName("computer_2-novice"));
    }
 }
